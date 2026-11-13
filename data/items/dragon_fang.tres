@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="ItemResource" format=3]
+
+[ext_resource type="Script" path="res://data/item.gd" id="1_item"]
+
+[resource]
+script = ExtResource("1_item")
+id = "dragon_fang"
+display_name = "Croc de dragon"
+description = "Brûle encore au toucher."
+kind = 0
+rarity = 3
+attack = 28
+defense = 0
+max_hp_bonus = 20
+heal = 0
+value = 300
+max_stack = 1

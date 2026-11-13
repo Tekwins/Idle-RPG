@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="EnemyResource" format=3]
+
+[ext_resource type="Script" path="res://data/enemy.gd" id="1_enemy"]
+
+[resource]
+script = ExtResource("1_enemy")
+id = "skeleton"
+display_name = "Squelette"
+min_stage = 4
+max_hp = 70
+attack = 11
+defense = 4
+attack_speed = 0.9
+xp = 15
+gold = 8
+loot_ids = PackedStringArray("bone", "big_potion", "small_potion", "iron_sword", "chainmail")
+loot_chances = PackedFloat32Array(0.5, 0.05, 0.12, 0.05, 0.04)

@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="EnemyResource" format=3]
+
+[ext_resource type="Script" path="res://data/enemy.gd" id="1_enemy"]
+
+[resource]
+script = ExtResource("1_enemy")
+id = "dragon_whelp"
+display_name = "Dragonnet"
+min_stage = 12
+max_hp = 260
+attack = 30
+defense = 14
+attack_speed = 1.0
+xp = 60
+gold = 40
+loot_ids = PackedStringArray("scale_shard", "big_potion", "dragon_fang", "dragon_scale")
+loot_chances = PackedFloat32Array(0.3, 0.15, 0.01, 0.01)

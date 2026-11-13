@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="EnemyResource" format=3]
+
+[ext_resource type="Script" path="res://data/enemy.gd" id="1_enemy"]
+
+[resource]
+script = ExtResource("1_enemy")
+id = "slime"
+display_name = "Slime"
+min_stage = 1
+max_hp = 25
+attack = 4
+defense = 0
+attack_speed = 0.8
+xp = 4
+gold = 2
+loot_ids = PackedStringArray("slime_gel", "small_potion", "wooden_sword")
+loot_chances = PackedFloat32Array(0.5, 0.15, 0.05)

@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="ItemResource" format=3]
+
+[ext_resource type="Script" path="res://data/item.gd" id="1_item"]
+
+[resource]
+script = ExtResource("1_item")
+id = "leather_armor"
+display_name = "Armure de cuir"
+description = "Souple et légère."
+kind = 1
+rarity = 0
+attack = 0
+defense = 2
+max_hp_bonus = 10
+heal = 0
+value = 8
+max_stack = 1

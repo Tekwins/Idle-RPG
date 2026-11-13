@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="ItemResource" format=3]
+
+[ext_resource type="Script" path="res://data/item.gd" id="1_item"]
+
+[resource]
+script = ExtResource("1_item")
+id = "wooden_sword"
+display_name = "Épée en bois"
+description = "Mieux que les poings."
+kind = 0
+rarity = 0
+attack = 3
+defense = 0
+max_hp_bonus = 0
+heal = 0
+value = 8
+max_stack = 1
